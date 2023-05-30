@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Projeto 05</title>
+	<link href="css/css05.css" rel="stylesheet">
+	<meta name="description" content="conteudo do meu site">
+	<meta name="keywords" content="palavras,separadas,por,virgula">
+	<meta name="author" content="Rodrigo da Silva">
+	<!-- meta tag para modo responsivo -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/>
+	<!-- Importando style de fonte -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header style="border-bottom: 3px solid #EB2D2D;">
+		<!-- hiper link interno -->
+		<a id=""></a>
+		<div class="container">
+			<div class="logo">
+			<!--<img style="background-size: 100% 100%; background-repeat: no-repeat;" src="img/logo0.png" width="200px" height="100px">-->
+			<img src="img/logo2.png" alt="logo-carro" width="208px" height="82px"/>
+			</div><!--logo-->
+			<nav class="desktop">
+				<ul>
+					<!--primeiro item da lista na cor red -->
+					<li><a href="index.html">Home</a></li>
+					<li><a href="venda.html">Venda</a></li>
+					<li><a style="color:#EB2D2D;"href="sobre.html">Sobre</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav><!--desktop-->
+			<nav class="mobile">
+				<ul>
+					<!--primeiro item da lista na cor red -->
+					<li><a href="index.html">Home</a></li>
+					<li><a href="venda.html">Venda</a></li>
+					<li><a style="color:#EB2D2D;" href="sobre.html">Sobre</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav><!--mobile-->
+			<div class="clear"></div>
+		</div><!--container-->
+	</header>
+
+<section class="venda-single">
+	<div class="line-titulo">
+		<div class="ln1"></div>
+		<h2>Veículo para Venda</h2>
+	</div>
+
+<div class="container">
+	<div class="info-veiculo">
+		<div class="info-bread"><a href="index.html">HOME</a><span>></span>
+			<a href="venda.html">VENDA</a><span>></span>
+			<a href="veiculo1.html">VEICULO DE TESTE</a>
+		</div><!--info-bread-->
+
+		<div class="foto-destaque"></div>
+		<div class="nav-galeria-parent">
+			<div class="arrow-left-nav"></div>
+			<div class="arrow-right-nav"></div>
+
+			<div class="nav-galeria">
+			<div class="nav-galeria-wraper">
+				<div class="mini-img-wraper"><div style="background-image:url('img/foto1.jpg');" class="mini-img"></div></div><!--mini-img-wraper-->
+				<div class="mini-img-wraper"><div style="background-image:url('img/foto2.jpg');" class="mini-img"></div></div><!--mini-img-wraper-->
+				<div class="mini-img-wraper"><div style="background-image:url('img/foto3.jpg');" class="mini-img"></div></div><!--mini-img-wraper-->
+				<div class="mini-img-wraper"><div style="background-image:url('img/foto4.jpg');" class="mini-img"></div></div><!--mini-img-wraper-->
+				<div class="mini-img-wraper"><div style="background-image:url('img/foto5.jpg');" class="mini-img"></div></div><!--mini-img-wraper-->
+				<div class="mini-img-wraper"><div style="background-image:url('img/foto6.jpg');" class="mini-img"></div></div><!--mini-img-wraper-->
+
+			</div><!--nav-galeria-wraper-->
+			</div><!--nav-galeria-->
+		</div><!--nav-galeria-parent-->
+	</div><!--info-veiculo-->
+
+		<div class="descricao-veiculo">
+			<h2>R$ 63.090</h2>
+			<p>Potência (cv) 	104<br>
+				Torque (kgf.m) 	15,6<br>
+				Velocidade Máxima (km/h) 182<br>
+				Tempo 0-100 (s) 	10,4 N/D<br>
+				Consumo cidade (km/l) 	7,8<br>
+				Consumo estrada (km/l) 	9,5<br>
+				Câmbio 	manual de 5 marchas<br>
+				Tração 	dianteira<br>
+				Direção 	hidráulica</p>
+			<a class="btn1" goto="contato" href="#contato">Entre em contato</a>
+		</div><!--descricao-veiculo-->
+		<div class="clear"></div>
+	</div><!--container-->
+
+
+</section><!--venda-single-->
+
+<section id="contato" class="contato">
+		<div class="line-titulo">
+			<div class="ln1"></div>
+			<h2>CONTATO</h2>
+		</div><!--line-titulo-->
+	<form>
+		<div class="input-wraper w100">
+			<input placeholder="Nome*" type="text" required/>
+		</div><!--input-wraper w100-->
+
+		<div class="input-wraper w50">
+			<input placeholder="E-mail*" type="text" required />
+		</div><!--input-wraper w100-->
+
+		<div class="input-wraper w50">
+			<input placeholder="Telefone*" type="text" required/>
+		</div><!--input-wraper w100-->
+
+		<div class="input-wraper w100">
+			<textarea placeholder="Mensagem*" required ></textarea>
+		</div><!--input-wraper w100-->
+
+		<div class="input-wraper w100">
+			<input class="btn1" type="submit" value="Enviar" />
+		</div><!--input-wraper w100-->
+		<div class="clear"></div><!--clear-->
+	</form>
+</section><!--contato-->
+
+<section class="veiculos-destaque">
+		<div class="line-titulo">
+			<div class="ln1"></div>
+			<h2>VEÍCULOS EM DESTAQUE</h2>
+		</div><!--line-titulo-->
+	<div class="container">
+		<div class="vitrine-destaque">
+			<div style="background-image:url('img/car1.jpg');" class="carro-img"></div>
+			<div class="info-carro">
+				<h2>Volkswagen Karmann-ghia</h2>
+				<p>1.6 8v, Gasolina, 2p, Manual169</p>
+				<a class="btn1" href="">Mais Detalhes</a>
+			</div><!--info-carro-->
+		</div><!--vitrine-destaque-->
+
+		<div class="vitrine-destaque">
+			<div style="background-image:url('img/car2.jpg');" class="carro-img"></div>
+			<div class="info-carro">
+				<h2>Volkswagen Karmann-ghia</h2>
+				<p>1.6 8v, Gasolina, 2p, Manual169</p>
+				<a class="btn1" href="">Mais Detalhes</a>
+			</div><!--info-carro-->
+		</div><!--vitrine-destaque-->
+
+		<div class="vitrine-destaque">
+			<div style="background-image:url('img/car4.jpg');" class="carro-img"></div>
+			<div class="info-carro">
+				<h2>Volkswagen Karmann-ghia</h2>
+				<p>1.6 8v, Gasolina, 2p, Manual169</p>
+				<a class="btn1" href="">Mais Detalhes</a>
+			</div><!--info-carro-->
+		</div><!--vitrine-destaque-->
+		<div class="clear"></div>
+		</div><!--container-->
+</section><!--veiculos-destaque-->
+
+<footer>
+	<div class="container">
+			<nav class=>
+				<ul>
+					<!--primeiro item da lista na cor red -->
+					<li><a href="index.html">Home</a></li>
+					<li><a href="venda.html">Venda</a></li>
+					<li><a style="color:#EB2D2D;" href="sobre.html">Sobre</a></li>
+					<li><a goto="contato" href="#contato">Contato</a></li>
+				</ul>
+			</nav><!--mobile-->
+			<p>Todos os direitos reservados</p><br>
+			<p>Rodrigo da Silva</p>
+			<div class="clear"></div><!--clear-->
+	</div><!--container-->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/menu_responsivo.js"></script>
+<script src="js/menuScroll.js"></script><!--Scrpit efeito de click-->
+<script src="js/MouseEfeito.js"></script><!--Script efeito de Sllde -->
+</footer>
+</body>
+</html>
